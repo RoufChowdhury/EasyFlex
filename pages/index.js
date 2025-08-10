@@ -6,6 +6,7 @@ export default function Home() {
       <Head>
         <title>EasyFlex Activewear</title>
         <meta name="description" content="Where flexibility meets sustainability." />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </Head>
 
       <header style={{
