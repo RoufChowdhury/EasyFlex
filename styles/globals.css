@@ -1,5 +1,21 @@
+/* Brand tokens */
+:root {
+  --brand: #0ea5e9;       /* teal */
+  --brand-dark: #0b4a6f;  /* navy */
+  --text: #0f172a;
+}
+
+/* Resets */
 * { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; font-family: system-ui, -apple-system, Arial, sans-serif; }
+html, body { margin: 0; padding: 0; font-family: system-ui, -apple-system, Arial, sans-serif; color: var(--text); }
 main { max-width: 960px; margin: 48px auto; padding: 0 24px; }
 h1 { font-size: 40px; margin-bottom: 12px; }
 p  { font-size: 18px; line-height: 1.6; }
+
+/* Links */
+a { color: var(--brand); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Small polish for cards */
+div[style*="border: 1px solid #eee"] { transition: transform .12s ease; }
+div[style*="border: 1px solid #eee"]:hover { transform: translateY(-2px); }
